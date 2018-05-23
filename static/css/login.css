@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(to right, #e6e6e6 ,  #ffffff);
+}
+.login-container{
+    width: 500px;
+    height: 600px;
+    border-color:brown;
+   /* border-style: dotted;*/
+
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+
+        /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;    
+}
+img{
+    width: 100%; /* or any custom size */
+    height: 90%; 
+    object-fit: contain;
+}
+
+.login-img{
+    width:250px;
+    height:150px;
+    border-color:brown;
+    /*border-style: dotted;*/
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin-left: 24.5%;
+    margin-top:13%;
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+}
+
+.login-content{    
+    width:250px;
+    height:150px;
+    border-color:brown;
+   /* border-style: dotted;*/
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+}
+input{
+    padding-left: 2px;
+    color:  #404040;
+}
+input:focus { 
+    outline:none;
+    border-color:#54f898;
+    box-shadow:0 0 10px #54f898;
+}
+input:hover { 
+    outline:none;
+    border-color:#54f898;
+    box-shadow:0 0 10px #54f898;
+}
+
+.txt{
+    width:210px;
+    height: 24px;
+    border: 1px solid #09dc61;
+   /* box-shadow: 1px 1px #07ab4c;*/
+    border-radius: 4px;
+    font-size: 12pt;
+    margin-left: 7%;     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+button{    
+    height:25px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;    
+}
+
+#btnSignup{
+    width: 90px;    
+    margin-top: 3px;
+    margin-left: 7%;
+    background-color: #f3f2f2;
+    border: 1px solid  #cecaca;
+    box-shadow:0 0 10px #cecaca; 
+    margin-top: 10pt;
+    cursor: pointer;
+    
+    
+}
+#btnlogin{
+    width:120px;    
+    margin-top:3px;
+    background-color: #3bf789;
+    border: 1px solid #09dc61;
+    box-shadow:0 0 10px #54f898; 
+    cursor: pointer;   
+}
+.labels{
+    margin-left:35%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #818181;
+}
