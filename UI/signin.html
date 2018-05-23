@@ -1,35 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <title>Maintenance And Repair</title>  
-    <meta charset="UTF-8"> 
-    <link href="../static/css/login.css" rel="stylesheet">   
-    </head>    
-    <body>
-     <div class="login-container">
-      <div class="login-img"><img src="../static/images/img.png" alt =""/></div>
-     <form action= "" method="">
-      <div class="login-content">
+
+<head>
+  <title>Maintenance And Repair</title>
+  <meta charset="UTF-8">
+  <link href="../static/css/login.css"
+    rel="stylesheet">
+  <link href="../static/css/signup.css"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="logo"><label class="logotxt">maintenance &amp repair</label></div>
+    <div class="otehr">
+      <label class = "lblsignup" onclick="document.getElementById('id01').style.display='block'">Don't have an Account? Sign up here</label>  
+    </div>
+    <div class="login-img">
+      <img src="../static/images/img.png"
+        alt="" />
+    </div>
+    <div class="login-content">
+      <form action=""
+        method="">
         <div>
           <label class="labels">ID No</label>
         </div>
         <div>
-          <input class ="txt" name ="id_no" type="text" required autocomplete="off" autofocus/>
+          <input class="txt"
+            name="id_no"
+            type="text"
+            required
+            autocomplete="off"
+            autofocus/>
         </div>
         <div>
           <label class="labels">Password</label>
         </div>
         <div>
-         <input class="txt" name ="pwd" type="password" required autocomplete="off"/>
-        </div> 
+          <input class="txt"
+            name="pwd"
+            type="password"
+            required
+            autocomplete="off" />
+        </div>
         <div class="button_container">
-          <button id="btnSignup" type="submit" value="Signup" title="Signup">Signup</button>
-          <button id="btnlogin" type="submit" value="Login" title="Login">Login</button>                                          
-        </div>     
-        
-      </div>
+          <button id="btnlogin"
+            type="submit"
+            value="Login"
+            title="Login">Login</button>
+        </div>
       </form>
-     </div>
+    </div>   
+    
+  </div>
+  <!-- The Modal (contains the Sign Up form) -->
+  <div id="id01"
+    class="modal">
+    <div class="close_modal" onclick="document.getElementById('id01').style.display='none'">close</div>
+    
+    <div class="signup-img">
+        <img src="../static/images/img.png"
+          alt="" />
+      </div>
+      
+    <form class="modal-content"
+      action="/">
+      
+      <div class="signup-content">
+        <div>
+          <label class="labels">ID No</label>
+        </div>
+        <div>
+          <input class="txt"
+            name="id_no"
+            type="text"
+            required
+            autocomplete="off" />
+        </div>
+        <div>
+          <label class="labels">First Name</label>
+        </div>
+        <div>
+          <input class="txt"
+            name="fname"
+            type="text"
+            required
+            autocomplete="off" />
+        </div>
+        <div>
+          <label class="labels">Last Name</label>
+        </div>
+        <div>
+          <input class="txt"
+            name="lname"
+            type="text"
+            required
+            autocomplete="off" />
+        </div>
+        <div>
+          <label class="labels">Department</label>
+        </div>
+        <div>
+          <input class="txt"
+            name="department"
+            type="text"
+            required
+            autocomplete="off" />
+        </div>
+        <div>
+          <label class="labels">Office</label>
+        </div>
+        <div>
+          <input class="txt"
+            name="office"
+            type="text"
+            required
+            autocomplete="off" />
+        </div>
+        <div>
+          <label class="labels">Password</label>
+        </div>
+        <div>
+          <input class="txt"
+            name="pwd"
+            type="password"
+            required
+            autocomplete="off" />
+        </div>
+        <div>
+          <label class="labels">Confirm Password</label>
+        </div>
+        <div>
+          <input class="txt"
+            name="con_pwd"
+            type="text"
+            required
+            autocomplete="off"
+            autofocus/>
+        </div>
+        
+          <button id="btnSignup"
+            type="submit"
+            value="SignUp"
+            title="SignUp">Sign Up</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
-    </body>
- </html>
+  <script  src="../static/js/close_signup.js"></script>
+</body>
+
+</html>

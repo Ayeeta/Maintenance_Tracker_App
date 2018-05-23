@@ -4,8 +4,8 @@ body{
 .login-container{
     width: 500px;
     height: 600px;
-    border-color:brown;
-   /* border-style: dotted;*/
+   /* border-color:brown;
+    border-style: dotted;*/
 
     position:absolute; /*it can be fixed too*/
     left:0; right:0;
@@ -17,17 +17,73 @@ body{
     max-height:100%;
     overflow:auto;    
 }
+.logo{
+    width:250px;
+    height: 20px;
+   /* border-color:brown;
+    border-style: dotted;*/
+    margin-top:7.7%;
+    margin-left: 24.5%;
+    text-align: center;
+}
+.close_modal{
+    width:50px;
+    height:18px;
+   /* border-color:brown;
+    border-style: dotted;*/
+    margin-top:1%;
+    margin-left: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #818181;
+    cursor: pointer;
+    text-align: center;
+}
+.close_modal:hover{
+    color: #ff1a1a;
+    text-decoration: underline;
+}
+.logotxt{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14pt;
+    font-stretch: expanded;
+    
+}
+
+.otehr{
+    width:250px;
+    height: 20px;
+   /* border-color:brown;
+    border-style: dotted;*/
+    margin-top: 75%;
+    margin-left: 24.5%;
+
+}
 img{
     width: 100%; /* or any custom size */
     height: 90%; 
     object-fit: contain;
 }
+.signup-img{
+    width:100px;
+    height:50px;
+   /* border-color:brown;
+    border-style: dotted;*/
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin-left: 30%;
+    margin-top:15%;
+    max-width:100%;
+    max-height:100%;
+    overflow:auto;
+}
 
 .login-img{
     width:250px;
     height:150px;
-    border-color:brown;
-    /*border-style: dotted;*/
+  /*  border-color:brown;
+    border-style: dotted;*/
     position:absolute; /*it can be fixed too*/
     left:0; right:0;
     top:0; bottom:0;
@@ -41,8 +97,8 @@ img{
 .login-content{    
     width:250px;
     height:150px;
-    border-color:brown;
-   /* border-style: dotted;*/
+   /* border-color:brown;
+    border-style: dotted;*/
     position:absolute; /*it can be fixed too*/
     left:0; right:0;
     top:0; bottom:0;
@@ -85,28 +141,46 @@ button{
 }
 
 #btnSignup{
-    width: 90px;    
-    margin-top: 3px;
-    margin-left: 7%;
+    width: 90px;     
     background-color: #f3f2f2;
     border: 1px solid  #cecaca;
-    box-shadow:0 0 10px #cecaca; 
-    margin-top: 10pt;
+    box-shadow:0 0 10px #cecaca;     
     cursor: pointer;
-    
-    
+    position: relative;
+    margin-top: 10pt;
+    margin-left: 30%;    
 }
+#btnSignup:hover{
+    box-shadow:0 0 10px #07ab4c;
+}
+
 #btnlogin{
     width:120px;    
-    margin-top:3px;
+    margin-top:10px;
+    margin-left: 28%;
     background-color: #3bf789;
     border: 1px solid #09dc61;
     box-shadow:0 0 10px #54f898; 
     cursor: pointer;   
+}
+
+#btnlogin:hover{
+    box-shadow:0 0 10px #07ab4c;
 }
 .labels{
     margin-left:35%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
     color: #818181;
+}
+.lblsignup{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: #818181;
+    cursor: pointer;       
+}
+
+.lblsignup:hover{
+    color: #08c456;
+    text-decoration: underline;
 }
