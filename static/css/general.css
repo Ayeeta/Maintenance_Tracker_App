@@ -40,8 +40,8 @@ body {
 
 .index-container{
     margin-top:60px; 
-     border-color:brown;
-    border-style: dotted; 
+    /* border-color:brown;
+    border-style: dotted; */
     width: 700px;  
     margin-left: 25%
 }
