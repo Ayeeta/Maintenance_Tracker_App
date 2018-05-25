@@ -17,24 +17,19 @@ body {
 #rpBtn{
     margin-left: 10%;
 }
+
+#reqLogBtn{
+    margin-left: 10%;
+}
 .nav-item1{
-   /* border-color:brown;
+    /*border-color:brown;
     border-style: dotted;*/
     margin-top: 1%; 
-    margin-left: 10%;
+    /*margin-left: 10%;*/
     height: 30px;
-    /*width:250px;
-    text-align: center; */   
+    /*width:250px;*/
+    text-align: center;  
 }
-/*.nav-item2{
-    border-color:brown;
-    border-style: dotted;
-    margin-top: 1%; 
-    margin-left: 1%;
-    height: 30px;
-    width:120px;
-    text-align: center;    
-}*/
 
 .nav-items{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
