@@ -14,15 +14,27 @@ body {
     left:0;
     box-shadow:0 0 10px #b3b3b3;
 }
+#rpBtn{
+    margin-left: 10%;
+}
 .nav-item1{
    /* border-color:brown;
     border-style: dotted;*/
     margin-top: 1%; 
     margin-left: 10%;
     height: 30px;
+    /*width:250px;
+    text-align: center; */   
+}
+/*.nav-item2{
+    border-color:brown;
+    border-style: dotted;
+    margin-top: 1%; 
+    margin-left: 1%;
+    height: 30px;
     width:120px;
     text-align: center;    
-}
+}*/
 
 .nav-items{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -83,6 +95,19 @@ body {
 
 .close:hover,
 .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close2 {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
@@ -170,7 +195,22 @@ button{
     box-shadow:0 0 10px #54f898; 
     cursor: pointer;
 }
+
 #btnMtn:hover{
+    box-shadow:0 0 10px #07ab4c;
+}
+
+#btnRep{
+    width:120px;    
+    margin-top:1%;
+   /* margin-left: 28%;*/
+    background-color: #3bf789;
+    border: 1px solid #09dc61;
+    box-shadow:0 0 10px #54f898; 
+    cursor: pointer;
+}
+
+#btnRep:hover{
     box-shadow:0 0 10px #07ab4c;
 }
 @-webkit-keyframes animatetop {

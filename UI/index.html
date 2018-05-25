@@ -9,8 +9,14 @@
     <script type="text/javascript"
         src="../static/js/popup.js"
         defer></script>
+        <script type="text/javascript"
+        src="../static/js/popupRep.js"
+        defer></script>
     <script type="text/javascript"
         src="../static/js/mtnReq.js"
+        defer></script>
+        <script type="text/javascript"
+        src="../static/js/repairReq.js"
         defer></script>
 </head>
 
@@ -22,8 +28,11 @@
     <div class="nav-bar">
         <div class="nav-item1">
             <label id="mtnBtn"
-                class="nav-items">maintenance</label>
+                class="nav-items">&#9888; maintenance</label>
+            <label id="rpBtn"
+                class="nav-items"> &#9874; repair</label>
         </div>
+
     </div>
     <div class="popup-form"
         id="popForm">
@@ -39,7 +48,9 @@
                         action=""
                         method="">
                         <div>
-                            <label class="lbl-index-form">Item Name &nbsp;&nbsp;*Include office batch number e.g <b>Sony Vaio - MR23/01-E</b></label>
+                            <label class="lbl-index-form">Item Name &nbsp;&nbsp;*Include office batch number e.g
+                                <b>Sony Vaio - MR23/01-E</b>
+                            </label>
                         </div>
                         <div>
                             <input id="idxItem"
@@ -77,6 +88,62 @@
                 maintenance &amp; repair &copy;2018
             </div>
         </div>
+    </div>   
+    <div class="popup-form"
+        id="popForm2">
+        <div class="form-content">
+            <div class="form-header">
+                <span class="close2">&times;</span>
+                <h3>repair</h3>
+            </div>
+            <div class="form-body">
+                <div class="req-content">
+                    <form id="idxForm"
+                        onsubmit="return repairReq();"
+                        action=""
+                        method="">
+                        <div>
+                            <label class="lbl-index-form">Item Name &nbsp;&nbsp;*Include office batch number e.g
+                                <b>Sony Vaio - MR23/01-E</b>
+                            </label>
+                        </div>
+                        <div>
+                            <input id="idxItem2"
+                                class="form-req-txt"
+                                name="index_itemName"
+                                type="text"
+                                required
+                                autofocus
+                                autocomplete="off" />
+                        </div>
+                        <div class="prob-desc">
+                            <label class="lbl-index-form">Problem Description</label>
+                        </div>
+                        <div>
+                            <textarea id="idxDesc2"
+                                name="index_probDesc"
+                                rows="4"
+                                cols="69"
+                                type="text"
+                                placeholder="Briefly describe issue in a sentence(s)...do not use bullets"
+                                autocomplete="off"></textarea>
+                        </div>
+                        <div>
+                            <button id="btnRep"
+                                type="button"
+                                value="submit"
+                                onclick="repReq();"
+                                title="Submit">Submit</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="form-footer">
+                maintenance &amp; repair &copy;2018
+            </div>
+        </div>
+    </div> 
 
 </body>
 
