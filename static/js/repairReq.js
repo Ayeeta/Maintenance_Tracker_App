@@ -10,7 +10,7 @@ function repReq() {
         newdiv.style.boxShadow = "0 0 5px #b3b3b3";
         newdiv.style.padding = "10px";
 
-        newdiv.innerHTML = "<h3> <font color=#ff3333>repair</font> - " + reqTitle2 + "</h3> <p>" + reqDesc2 + "</p> <p><font size=1 color=grey>"+reqDate2+"</font></p>";
+        newdiv.innerHTML = "<h3> <font color=#ff3333>&#9874; repair</font> - " + reqTitle2 + "</h3> <p>" + reqDesc2 + "</p> <p><font size=1 color=grey>"+reqDate2+"</font></p>";
         document.getElementById("parent-div").appendChild(newdiv);
 
         document.getElementById("idxItem2").value = "";
