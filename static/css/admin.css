@@ -39,8 +39,8 @@ body{
     left:0;    
 }
 .admin-parent-div{
-    border-color:brown;
-    border-style: dotted;
+    /*border-color:brown;
+    border-style: dotted;*/
     margin-top:60px;  
     width: 700px; 
     height:400px;
