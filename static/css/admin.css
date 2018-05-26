@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;    
+}
+.admin-nav-bar{
+    position: fixed;
+    background-color: #006666;
+    width: 100%;
+    top:0;
+    overflow: hidden;
+    height: 8%;
+    margin:0;
+   /* border-color:brown;
+    border-style: dotted;*/
+    left:0;    
+}
+.admin-side-pane{
+    position: fixed;
+    margin-top: 50px;
+    top:0;
+    left:0;
+    width:15%;
+    height:100%;
+    background-color: #00394d;
+    padding: 10px;
+}
+.filters{
+    margin-top: 10px;
+    /*border-color:brown;
+    border-style: dotted; */ 
+    color: whitesmoke;
+    border-bottom:1px solid #b3b3b3;
+        
+}
+input{
+    margin-top: 10px;
+}
+input.checkbox{
+    cursor: pointer;
+}
+.btnFilter{
+    width: 90px;     
+    background-color:  #cccccc;
+    border: 1px solid  #333333;        
+    cursor: pointer;
+    margin-left: 40px;
+    border-radius: 3px;
+}
+.checkfilters{
+    margin-top: 5px;
+    /*border-color:brown;
+    border-style: dotted;*/ 
+    padding:10px;
+    color: whitesmoke;
+    border-bottom:1px solid #b3b3b3;
+}
