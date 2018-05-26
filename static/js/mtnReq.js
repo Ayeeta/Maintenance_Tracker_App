@@ -10,7 +10,7 @@ function mainReq() {
         newdiv.style.boxShadow = "0 0 5px #b3b3b3";
         newdiv.style.padding = "10px";
 
-        newdiv.innerHTML = "<h3> <font color=#ffa64d>&#9888; maintenance</font> - " + reqTitle + "</h3> <p>" + reqDesc + "</p> <p><font size=1 color=grey>"+reqDate+"</font></p>";
+        newdiv.innerHTML = "<h3> <font color=#ffa64d>&#9965; maintenance</font> - " + reqTitle + "</h3> <p>" + reqDesc + "</p> <p><font size=1 color=grey>"+reqDate+"</font></p>";
         document.getElementById("parent-div").appendChild(newdiv);
 
         document.getElementById("idxItem").value = "";

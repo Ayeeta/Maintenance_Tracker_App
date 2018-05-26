@@ -2,17 +2,50 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;    
 }
+.admin-nav{
+    /*border-color:brown;
+    border-style: dotted;*/
+    margin-top: 9px;
+    color: whitesmoke; 
+    text-align: center;
+    font-size: 16pt;
+}
+.log-out{
+    border-color:brown;
+    border-style: dotted;
+    border: 1px solid #00131a;
+    background-color:  #00a8e6;
+    border-radius: 3px;
+    text-align: center;
+    color:whitesmoke;
+    margin-top: 380px;
+    cursor: pointer;
+}
+.log-out:hover{
+    background-color: #66d6ff;
+    color:#00394d;
+}
 .admin-nav-bar{
-    position: fixed;
-    background-color: #006666;
+    position: fixed;    
     width: 100%;
     top:0;
     overflow: hidden;
     height: 8%;
     margin:0;
+    border-bottom: 1px solid #003333;
+    background: linear-gradient(#006666, #003333);
    /* border-color:brown;
     border-style: dotted;*/
     left:0;    
+}
+.admin-parent-div{
+    border-color:brown;
+    border-style: dotted;
+    margin-top:60px;  
+    width: 700px; 
+    height:400px;
+    margin-left: 16.5%;
+    padding:100px;
 }
 .admin-side-pane{
     position: fixed;
@@ -21,8 +54,42 @@ body{
     left:0;
     width:15%;
     height:100%;
+    border-right: #000000;
     background-color: #00394d;
+    background: linear-gradient(to right, #00394d,#00131a);
     padding: 10px;
+}
+.backlog{
+    /*border-color:brown;
+    border-style: dotted;*/
+    box-shadow: 0 0 5px #b3b3b3;
+    padding: 10px;
+    margin-top:10px;
+    text-align: center;
+       
+}
+.repair{
+   /* border-color:brown;
+    border-style: dotted; */
+    box-shadow: 0 0 5px #b3b3b3;
+    padding: 10px;
+    margin-top:10px;
+}
+.aRepair{
+    font-size: 12pt;
+    color: #80b3ff;
+}
+
+.admin-side-pane2{
+    position: fixed;
+    margin-top: 50px;
+    top:0;
+    right:0;
+    width:14%;
+    height:100%;    
+    padding: 10px;
+   /* border-color:brown;
+    border-style: dotted;*/
 }
 .filters{
     margin-top: 10px;
