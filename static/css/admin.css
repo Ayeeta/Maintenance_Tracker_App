@@ -11,19 +11,23 @@ body{
     font-size: 16pt;
 }
 .log-out{
-    border-color:brown;
-    border-style: dotted;
-    border: 1px solid #00131a;
+    
+    border: 1px solid #0083b3;
     background-color:  #00a8e6;
     border-radius: 3px;
+    width: 70px;
+    height: 20px;
     text-align: center;
     color:whitesmoke;
-    margin-top: 380px;
+    margin-top: 60px;
+    margin-left: 60px;
     cursor: pointer;
+    
 }
 .log-out:hover{
     background-color: #66d6ff;
     color:#00394d;
+    box-shadow: 0 0 100px  #007099;
 }
 .admin-nav-bar{
     position: fixed;    
@@ -32,19 +36,21 @@ body{
     overflow: hidden;
     height: 8%;
     margin:0;
-    border-bottom: 1px solid #003333;
-    background: linear-gradient(#006666, #003333);
+    background-color: #008080;
+    border-bottom: 1px solid #008080;
+     
+    box-shadow: 0 0 10px #003333;  
    /* border-color:brown;
     border-style: dotted;*/
     left:0;    
 }
 .admin-parent-div{
     /*border-color:brown;
-    border-style: dotted;*/
+    border-style: dotted;*/    
     margin-top:60px;  
     width: 700px; 
     height:400px;
-    margin-left: 16.5%;
+    margin-left: 17.5%;
     padding:100px;
 }
 .b-div{
@@ -53,13 +59,12 @@ body{
 .admin-side-pane{
     position: fixed;
     margin-top: 50px;
-    top:0;
-    left:0;
+    top:20px;
+    left:10px;
     width:15%;
-    height:100%;
-    border-right: #000000;
-    background-color: #00394d;
-    background: linear-gradient(to right, #00394d,#00131a);
+    height:300px;    
+    background-color: #00394d; 
+    /*box-shadow: 0 0 0px  #f51505; */  
     padding: 10px;
 }
 .backlog{
