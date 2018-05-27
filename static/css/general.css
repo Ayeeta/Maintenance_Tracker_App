@@ -55,9 +55,12 @@ body {
     /*border-color:brown;
     border-style: dotted; */
     width: 200px;
-    height:400px;  
+    height:200px;  
     box-shadow:0 0 10px #b3b3b3;
-    padding: 4px;    
+    padding: 10px;    
+}
+.ic{
+    text-align: center;
 }
 
 .index-container{
@@ -223,6 +226,9 @@ button{
 #btnRep:hover{
     box-shadow:0 0 10px #07ab4c;
 }
+
+
+
 @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
     to {top:0; opacity:1}
