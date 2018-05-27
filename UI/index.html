@@ -6,6 +6,11 @@
     <title>Maintenance And Repair</title>
     <link rel="shortcut icon"
         href="../static/images/img_qtt_icon.ico">
+    <link href="../static/css/signup.css"
+        rel="stylesheet">
+    <script type="text/javascript"
+        src="../static/js/popEdit.js"
+        defer></script>
     <link href="../static/css/general.css"
         rel="stylesheet">
     <script type="text/javascript"
@@ -29,29 +34,133 @@
     <div id="userdetails-div"
         class="Udetails-container">
         <div class="i-c">
-            <br> 
+            <br>
             <div class="ic">
-            <label 
-                id="lbl_id">identification number</label></div>
+                <label id="lbl_id">[identification number]</label>
+            </div>
             <br>
-            <div class="ic">            
-            <label class="ic"
-                id="lbl_name">firstname lastname</label></div>
-            <br> 
-            <div class="ic">     
-            <label class="ic"
-                id="lbl_department">office Department</label></div>
-            <br> 
-            <div class="ic">          
-            <label class="ic"
-                id="lbl_office">Office</label></div> 
+            <div class="ic">
+                <label class="ic"
+                    id="lbl_name">[firstname lastname]</label>
+            </div>
+            <br>
+            <div class="ic">
+                <label class="ic"
+                    id="lbl_department">[office Department]</label>
+            </div>
+            <br>
+            <div class="ic">
+                <label class="ic"
+                    id="lbl_office">[Office]</label>
+            </div>
             <br>
             <br>
-            <div class="ic"> 
-            <label class="ic"
-                id="lbl_links"><a href="#">Edit</a>  |
-                <a href="#">Sign-out</a>
-            </label></div>
+            <div class="ic">
+                <button id="btnEdit"
+                    class="btnidxE"
+                    type="button"
+                    value="Edit"
+                    title="Edit User Details">edit</button>
+                <button id="btnSignout"
+                    class="btnidx"
+                    type="button"
+                    value="signout"
+                    title="Sign out">sign out</button>
+            </div>
+        </div>
+    </div>
+    <div id="edit_usr_modal"
+        class="edit-usr-modal">
+        <div class="e-c">
+
+            <div class="edit-usr-content">
+                <form class="modal-content"
+                    action="/">
+                    <div class="s-c">
+                        <label>ID No</label>
+                    </div>
+                    <div>
+                        <input class="txtU"
+                            name="signup_id_no"
+                            type="text"
+                            required
+                            autocomplete="off" />
+                    </div>
+                    <div class="s-c">
+                        <label>First Name</label>
+                    </div>
+                    <div>
+                        <input class="txtU"
+                            name="signup_fname"
+                            type="text"
+                            required
+                            autocomplete="off" />
+                    </div>
+                    <div class="s-c">
+                        <label>Last Name</label>
+                    </div>
+                    <div>
+                        <input class="txtU"
+                            name="signup_lname"
+                            type="text"
+                            required
+                            autocomplete="off" />
+                    </div>
+                    <div class="s-c">
+                        <label>Department</label>
+                    </div>
+                    <div>
+                        <input class="txtU"
+                            name="signup_department"
+                            type="text"
+                            required
+                            autocomplete="off" />
+                    </div>
+                    <div class="s-c">
+                        <label>Office</label>
+                    </div>
+                    <div>
+                        <input class="txtU"
+                            name="signup_office"
+                            type="text"
+                            required
+                            autocomplete="off" />
+                    </div>
+                    <div class="s-c">
+                        <label>Password</label>
+                    </div>
+                    <div>
+                        <input class="txtU"
+                            name="signup_pwd"
+                            type="password"
+                            required
+                            autocomplete="off" />
+                    </div>
+                    <div class="s-c">
+                        <label>Confirm Password</label>
+                    </div>
+                    <div>
+                        <input class="txtU"
+                            name="signup_con_pwd"
+                            type="password"
+                            required
+                            autocomplete="off" />
+                    </div>
+
+                    <div class="btnE">
+                        <button id="btnUpdate"
+                            class="btnU"
+                            type="submit"
+                            value="Update"
+                            title="Update">Update</button>
+                        <button id="btnCancelEdit"
+                            class="btnC"
+                            type="button"
+                            value="Cancel"
+                            title="Cancel">Cancel</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
