@@ -1,6 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+button{
+    cursor: pointer;
+}
 .nav-bar{
     position: fixed;
     background-color: #09dc61;
@@ -161,6 +164,12 @@ body {
     font-size: 12pt;         
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.txtU{
+    width: 200px;
+    border-radius: 3px;
+    border: 1px solid #54f898;
+    font-size: 20px;
+}
 input:focus { 
     outline:none;
     border-color:#54f898;
@@ -227,6 +236,69 @@ button{
     box-shadow:0 0 10px #07ab4c;
 }
 
+.edit-usr-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+.e-c{    
+    background-color: #fefefe;
+    margin: 5% auto; 
+    padding: 20px;
+    border: 1px solid #54f898;
+    width: 15%;
+    height:400px;
+    border-radius: 3px;
+}
+button.btnC{    
+    border: 1px solid #adad85;
+}
+
+button.btnC:hover{
+    border: 1px solid #adad85;
+}
+button.btnU{
+    background-color: #00b33c;
+    color: whitesmoke;
+    border: 1px solid #00b33c;
+}
+
+button.btnU:hover{
+    border: 1px solid #00802b;
+}
+button.btnidx{
+    background-color: #0099cc;
+    color: whitesmoke;
+    border: 1px solid #0099cc;    
+}
+button.btnidx:hover{
+    box-shadow: 0px 0px 10px #08bbf7;
+}
+button.btnidxE{
+    background-color: #404040;
+    color: whitesmoke;
+    border: 1px solid #404040;    
+}
+button.btnidxE:hover{
+    box-shadow: 0px 0px 5px #b3b3b3;
+}
+.edit-usr-content{
+   /* border-color:brown;
+    border-style: dotted;*/
+    margin-top:20%;
+    height:300px;
+    text-align: center;
+}
+.btnE{
+    margin-top:12px;
+}
 
 
 @-webkit-keyframes animatetop {
