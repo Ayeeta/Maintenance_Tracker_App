@@ -15,6 +15,11 @@ function repReq() {
 
         document.getElementById("idxItem2").value = "";
         document.getElementById("idxDesc2").value = "";
+        alert("Repair request submited");
+        
+
+        
+
 
     } else {
         alert("Please fill in the required details");

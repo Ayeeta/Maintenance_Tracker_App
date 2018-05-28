@@ -15,6 +15,7 @@ function mainReq() {
 
         document.getElementById("idxItem").value = "";
         document.getElementById("idxDesc").value = "";
+        alert("Maintenance Request Created Successfully");
 
     } else {
         alert("Please fill in the required details");
